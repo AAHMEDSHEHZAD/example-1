@@ -1,0 +1,12 @@
+my_list=[]
+a=[1,2,3,4,5]
+print(my_list.extend(a))
+print(my_list)
+print(len(my_list))
+print(my_list[0])
+print(my_list[4])
+other_list=[6,7,8,9]
+combined_list=my_list+other_list
+print(combined_list)
+combined_list.reverse()
+print(combined_list)
